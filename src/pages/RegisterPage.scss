@@ -1,0 +1,78 @@
+@import "../theme";
+
+$formMaxWidth: 400px;
+
+main.RegisterPage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-y: auto;
+
+    @media only screen and (min-width: $formMaxWidth) {
+        flex-direction: unset;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+form.RegisterPage {
+    box-sizing: border-box;
+    background-color: $colorDarkBlue;
+    border-style: none;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (min-width: $formMaxWidth) {
+        width: $formMaxWidth - 2 * 10px;
+    }
+}
+
+label.RegisterPage {
+    box-sizing: border-box;
+    color: $colorWhite;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: fit-content;
+}
+
+input[type=text].RegisterPage,
+input[type=password].RegisterPage {
+    box-sizing: border-box;
+    background-color: $colorMediumGrey;
+    color: $colorWhite;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 10px;
+    font-size: 2rem;
+    border-style: none;
+    margin-bottom: 10px;
+}
+
+input[type=submit].RegisterPage, button.RegisterPage {
+    box-sizing: border-box;
+    background-color: $colorOrange;
+    color: $colorWhite;
+    border-style: none;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+
+    &:active {
+        background-color: $colorWhite;
+        color: $colorOrange;
+    }
+}

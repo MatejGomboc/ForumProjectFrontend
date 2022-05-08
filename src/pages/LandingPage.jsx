@@ -14,13 +14,13 @@ const LandingPage = () => {
                 </h1>
                 <button
                     className="LandingPage"
-                    onClick={() => navigate("/register")}
+                    onClick={() => navigate("/ForumProjectFrontend/register")}
                 >
                     REGISTER
                 </button>
                 <button
                     className="LandingPage"
-                    onClick={() => navigate("/login")}
+                    onClick={() => navigate("/ForumProjectFrontend/login")}
                 >
                     LOGIN
                 </button>

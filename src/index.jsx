@@ -14,8 +14,8 @@ root.render(
         <BrowserRouter>
             <Suspense fallback={<LoadingPage />}>
                 <Routes>
-                    <Route path="/" element={<LandingPage />} />
-                    <Route path="/register" element={<RegisterPage />} />
+                    <Route path="/ForumProjectFrontend/" element={<LandingPage />} />
+                    <Route path="/ForumProjectFrontend/register" element={<RegisterPage />} />
                     <Route path="*" element={<NotFoundPage />} />
                 </Routes>
             </Suspense>

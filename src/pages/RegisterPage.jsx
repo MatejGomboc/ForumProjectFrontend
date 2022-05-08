@@ -65,7 +65,7 @@ const RegisterPage = () => {
 
                 <input type="submit" className="RegisterPage" value="REGISTER" />
 
-                <button className="RegisterPage" onClick={() => navigate("/")}>
+                <button className="RegisterPage" onClick={() => navigate("/ForumProjectFrontend/")}>
                     GO BACK
                 </button>
             </form>

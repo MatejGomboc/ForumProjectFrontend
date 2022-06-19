@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkforum=self.webpackChunkforum||[]).push([[198],{198:function(n,e,u){u.r(e),u.d(e,{default:function(){return o}});u(791),u(974);var t=u(184),o=function(){return(0,t.jsx)("main",{className:"NotFoundPage",children:(0,t.jsx)("h1",{className:"NotFoundPage",children:"404 - Content Not Found"})})}}}]);
-//# sourceMappingURL=198.02f6a2fc.chunk.js.map

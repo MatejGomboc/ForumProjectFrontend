@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.613b37fa.css",
-    "main.js": "/static/js/main.d2c9672b.js",
-    "static/css/623.14b3cdc7.chunk.css": "/static/css/623.14b3cdc7.chunk.css",
-    "static/js/623.aa1e7c3f.chunk.js": "/static/js/623.aa1e7c3f.chunk.js",
-    "static/css/198.48e79ad6.chunk.css": "/static/css/198.48e79ad6.chunk.css",
-    "static/js/198.12962e62.chunk.js": "/static/js/198.12962e62.chunk.js",
-    "static/css/413.c48e2c03.chunk.css": "/static/css/413.c48e2c03.chunk.css",
-    "static/js/413.0e80b467.chunk.js": "/static/js/413.0e80b467.chunk.js",
-    "index.html": "/index.html",
-    "main.613b37fa.css.map": "/static/css/main.613b37fa.css.map",
-    "main.d2c9672b.js.map": "/static/js/main.d2c9672b.js.map",
-    "623.14b3cdc7.chunk.css.map": "/static/css/623.14b3cdc7.chunk.css.map",
-    "623.aa1e7c3f.chunk.js.map": "/static/js/623.aa1e7c3f.chunk.js.map",
-    "198.48e79ad6.chunk.css.map": "/static/css/198.48e79ad6.chunk.css.map",
-    "198.12962e62.chunk.js.map": "/static/js/198.12962e62.chunk.js.map",
-    "413.c48e2c03.chunk.css.map": "/static/css/413.c48e2c03.chunk.css.map",
-    "413.0e80b467.chunk.js.map": "/static/js/413.0e80b467.chunk.js.map"
+    "main.css": "https://matejgomboc.github.io/ForumProjectFrontend/static/css/main.613b37fa.css",
+    "main.js": "https://matejgomboc.github.io/ForumProjectFrontend/static/js/main.d26d4a91.js",
+    "static/css/623.14b3cdc7.chunk.css": "https://matejgomboc.github.io/ForumProjectFrontend/static/css/623.14b3cdc7.chunk.css",
+    "static/js/623.aa1e7c3f.chunk.js": "https://matejgomboc.github.io/ForumProjectFrontend/static/js/623.aa1e7c3f.chunk.js",
+    "static/css/198.48e79ad6.chunk.css": "https://matejgomboc.github.io/ForumProjectFrontend/static/css/198.48e79ad6.chunk.css",
+    "static/js/198.12962e62.chunk.js": "https://matejgomboc.github.io/ForumProjectFrontend/static/js/198.12962e62.chunk.js",
+    "static/css/413.c48e2c03.chunk.css": "https://matejgomboc.github.io/ForumProjectFrontend/static/css/413.c48e2c03.chunk.css",
+    "static/js/413.0e80b467.chunk.js": "https://matejgomboc.github.io/ForumProjectFrontend/static/js/413.0e80b467.chunk.js",
+    "index.html": "https://matejgomboc.github.io/ForumProjectFrontend/index.html",
+    "main.613b37fa.css.map": "https://matejgomboc.github.io/ForumProjectFrontend/static/css/main.613b37fa.css.map",
+    "main.d26d4a91.js.map": "https://matejgomboc.github.io/ForumProjectFrontend/static/js/main.d26d4a91.js.map",
+    "623.14b3cdc7.chunk.css.map": "https://matejgomboc.github.io/ForumProjectFrontend/static/css/623.14b3cdc7.chunk.css.map",
+    "623.aa1e7c3f.chunk.js.map": "https://matejgomboc.github.io/ForumProjectFrontend/static/js/623.aa1e7c3f.chunk.js.map",
+    "198.48e79ad6.chunk.css.map": "https://matejgomboc.github.io/ForumProjectFrontend/static/css/198.48e79ad6.chunk.css.map",
+    "198.12962e62.chunk.js.map": "https://matejgomboc.github.io/ForumProjectFrontend/static/js/198.12962e62.chunk.js.map",
+    "413.c48e2c03.chunk.css.map": "https://matejgomboc.github.io/ForumProjectFrontend/static/css/413.c48e2c03.chunk.css.map",
+    "413.0e80b467.chunk.js.map": "https://matejgomboc.github.io/ForumProjectFrontend/static/js/413.0e80b467.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.613b37fa.css",
-    "static/js/main.d2c9672b.js"
+    "static/js/main.d26d4a91.js"
   ]
 }

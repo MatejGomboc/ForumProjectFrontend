@@ -1,5 +1,5 @@
-class AuthService {
-    async register(username, email /* TODO !!! */, password, password_confirm) {
+export default class AuthService {
+    static async register(username, email /* TODO !!! */, password, password_confirm) {
         const response = await fetch(
             process.env.REACT_APP_BACKEND_URL + "/api/auth/register",
             {
@@ -29,7 +29,7 @@ class AuthService {
         return true;
     }
 
-    async login(username, password) {
+    static async login(username, password) {
         const response = await fetch(
             process.env.REACT_APP_BACKEND_URL + "/api/auth/login",
             {
@@ -59,7 +59,7 @@ class AuthService {
         return tokens;
     }
 
-    async refresh(access_token, refresh_token) {
+    static async refresh(access_token, refresh_token) {
         const response = await fetch(
             process.env.REACT_APP_BACKEND_URL + "/api/auth/refresh",
             {
@@ -89,7 +89,7 @@ class AuthService {
         return tokens;
     }
 
-    async logout(access_token) {
+    static async logout(access_token) {
         const response = await fetch(
             process.env.REACT_APP_BACKEND_URL + "/api/auth/logout",
             {
@@ -112,7 +112,7 @@ class AuthService {
         return true;
     }
 
-    async unregister(access_token) {
+    static async unregister(access_token) {
         const response = await fetch(
             process.env.REACT_APP_BACKEND_URL + "/api/auth/logout",
             {
@@ -135,5 +135,3 @@ class AuthService {
         return true;
     }
 }
-
-export default AuthService;

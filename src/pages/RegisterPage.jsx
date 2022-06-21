@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import AuthService from "../services/AuthService";
 import "./Page.scss";
 import "./RegisterPage.scss";
 
@@ -12,13 +13,21 @@ const RegisterPage = () => {
     const [passwordRepeat, setPasswordRepeat] = useState("");
 
     const handleSubmit = (event) => {
-        // todo
+        AuthService.register(username, email, password, passwordRepeat).then(
+            (value) => {
+                alert("value: " + value);
+            },
+            (reason) => {
+                alert("reason: " + reason);
+            }
+        );
+
         event.preventDefault();
     };
 
     return (
         <main className="RegisterPage">
-            <form className="RegisterPage" onSubmit={handleSubmit}>
+            <form className="RegisterPage" onSubmit={(event) => handleSubmit(event)}>
                 <label htmlFor="username" className="RegisterPage">
                     Username:
                 </label>

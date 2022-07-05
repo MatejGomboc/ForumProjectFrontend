@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import FormInput from "../components/FormInput";
 import AuthService from "../services/AuthService";
 import "./Page.scss";
 import "./RegisterPage.scss";
@@ -27,49 +28,45 @@ const RegisterPage = () => {
 
     return (
         <main className="RegisterPage">
-            <form className="RegisterPage" onSubmit={(event) => handleSubmit(event)}>
+            <form className="RegisterPage" onSubmit={handleSubmit}>
                 <label htmlFor="username" className="RegisterPage">
                     Username:
                 </label>
-                <input
-                    id="username"
+                <FormInput
+                    name="username"
                     className="RegisterPage"
                     type="text"
-                    value={username}
-                    onChange={(event) => setUsername(event.target.value)}
+                    onChange={setUsername}
                 />
 
                 <label htmlFor="email" className="RegisterPage">
                     Email:
                 </label>
-                <input
-                    id="email"
+                <FormInput
+                    name="email"
                     className="RegisterPage"
                     type="text"
-                    value={email}
-                    onChange={(event) => setEmail(event.target.value)}
+                    onChange={setEmail}
                 />
 
                 <label htmlFor="password" className="RegisterPage">
                     Password:
                 </label>
-                <input
-                    id="password"
+                <FormInput
+                    name="password"
                     className="RegisterPage"
                     type="password"
-                    value={password}
-                    onChange={(event) => setPassword(event.target.value)}
+                    onChange={setPassword}
                 />
 
                 <label htmlFor="passwordRepeat" className="RegisterPage">
                     Repeat password:
                 </label>
-                <input
-                    id="passwordRepeat"
+                <FormInput
+                    name="passwordRepeat"
                     className="RegisterPage"
                     type="password"
-                    value={passwordRepeat}
-                    onChange={(event) => setPasswordRepeat(event.target.value)}
+                    onChange={setPasswordRepeat}
                 />
 
                 <input type="submit" className="RegisterPage" value="REGISTER" />
